@@ -49,8 +49,7 @@ Sometimes the loaded data may have some missing gaps. After loading and displayi
 
 ## Categorical data
 
-Niektóre dane w zbiorach składają się z łańcuchów znaków. Najczęściej takie dane posiadają kilka powtarzających się wartości. Są to wtedy dane kategorialne. Należy wtedy takie zdane zbinaryzować. Przydatny do tego jest mechanizm `LabelEncoder` z biblioteki `sklearn`.
-
+Some of the data in the collection are composed of strings. Most often such data have several recurring values. These are categorial data. It should be binarized. The `LabelEncoder` mechanism from the `sklearn` library is useful for this.
 - https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html
 
 > ### Exercise 4 (2 pts)
